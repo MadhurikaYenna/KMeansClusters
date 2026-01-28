@@ -20,9 +20,8 @@ st.write(
 # -------------------------------------------------
 # Load Dataset (Directly from path)
 # -------------------------------------------------
-df1 = pd.read_csv(
-    r"C:\Users\venka\OneDrive\Documents\AIDS_TekWorks\Wholesale customers data.csv"
-)
+df1 = pd.read_csv("Wholesale customers data.csv")
+
 
 st.success("Dataset loaded successfully")
 
@@ -170,3 +169,4 @@ st.write(
     f"Number of customers with changed cluster assignment "
     f"after changing random state: **{changed}**"
 )
+
